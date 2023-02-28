@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(174, 60, 164);
+}
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: rgb(129, 20, 166);
+    }
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color:#0328f8 ;
+    color: #ffffff;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #a77009;
+    color: #000000;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #00739a;
+}
+.aside {
+    background-color: #000000;
+    padding: 15px;
+    color: #f3f3f3;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #790094;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+.aside {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/Mascota1.jpg");
+}
+
+@media only screen and (max-width: 500px) {
+    .aside {
+       
+       background-image: url("img/Mascota2.jpg"); 
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <center><h1>PRACTICA -9</h1></center>
+</div>
+
+<div class="row">
+
+<div class="col-3 menu">
+  <ul>
+    <li><a href="https://glennmauricio.github.io/Practica-1/">Practica-1</a></li>
+    <li><a href="https://glennmauricio.github.io/Practica-2/">Practica-2</a></li>
+    <li><a href="https://glennmauricio.github.io/Practica-3/">Practica-3</a></li>
+    <li><a href="https://glennmauricio.github.io/Practica-4/">Practica-4</a></li>
+    <li><a href="https://glennmauricio.github.io/Practica-5/">Practica-5</a></li>
+    <li><a href="https://glennmauricio.github.io/Practica-6/">Practica-6</a></li>
+    <li><a href="https://glennmauricio.github.io/Practica-7/">Practica-7</a></li>
+    <li><a href="https://glennmauricio.github.io/Practica-8/">Practica-8</a></li>
+  </ul>
+</div>
+
+<div class="col-6">
+  <center>
+    <h1>CV</h1>
+
+    <video controls height="350px" width="400px"><source src="Media/Presen.mp4" type="video/mp4">Tu navegador no soporta el elemento video.</video>
+  
+    <h2>Mi direccion...</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!4v1676919081935!6m8!1m7!1sXFPQ0OVhIOkzEngZ3qJKlg!2m2!1d18.89583702874331!2d-96.92500427996228!3f203.44998141244227!4f-1.3708300323745561!5f0.7820865974627469" width="250px" height="250px" style="border: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe width="250px" height="250px" style="border: 15px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.7014557701797!2d-96.92561541193987!3d18.895693568027987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c4e5612067e63d%3A0x6d01abe4d3143893!2sC.%2015A%201609%2C%20Miguel%20Alem%C3%A1n%20Valdez%2C%2094620%20C%C3%B3rdoba%2C%20Ver.!5e0!3m2!1ses!2smx!4v1676919164609!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</center>
+<hr>
+      <h3>Datos Personales</h3>
+
+<ol type="A" style="color: rgb(60, 29, 29);">
+<li>Nombre Completo: <b>Glenn Mauricio Bello Chac&oacute;n.</b></li>
+<li>Fecha de Nacimiento: <b>30 de junio del 2002.</b></li>
+<li>Lugar de Nacimiento: <b>Cordoba, Veracruz.</b></li>
+</ol>
+
+<h3>Formulacion Personal</h3>
+
+<ol type="a" style="color: rgb(40, 135, 38);">
+
+<li>2005 - 2008: <b>Kinder Antonio Arenas.</b></li>
+<li>2008 - 2014: <b>Primaria Ursulo Galvan.</b></li>
+<li>2014 - 2016: <b>Secundaria General Numero 3.</b></li>
+<li>2016 - 2020: <b>Preparatoria Colegio De Bachilleres Del Estado De Veracruz.</b></li>
+<li>2020 - 2024: <b>Univeridad Campus Instituto Tecnologico De Orizaba. </b></li>
+</ol>
+
+<h3>Experiencia Laboral</h3>
+
+<ol type="A" style="color: rgb(251, 234, 7);">
+<li>2018 - 2019: <b>Curse mi primer periodo de programacion en JAVA...</b></li>
+<li>2019 - 2020: <b>Curso de programacion en arduino con proyecto final...</b></li>
+<li>2021 - 2022: <b>Concurso de programcion en ITO, <i>Nivel JUNIOR</i> en primera posicion...</b></li>
+<li>2022 - 2023: <b>Consurso de programacion en ITO, <i>Nivel MASTER</i> en cuarta posicion...</b></li>
+</ol>
+
+<hr>
+</div>
+
+<div class="col-3 right">
+  <div class="aside">
+    <p style="margin-top:360px;">Mis Mascotas que estan en un mejor lugar.</p>
+  </div>
+</div>
+
+</div>
+
+<div class="footer">
+  <p>Glenn Mauricio Bello Chacon 20011179</p>
+</div>
+
+</body>
+</html>
